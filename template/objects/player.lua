@@ -33,7 +33,7 @@ function Player:update(dt)
 
     results = KeyManager:update(dt)
 
-    playerMovement()
+    playerMovement(dt)
 
 
 end
