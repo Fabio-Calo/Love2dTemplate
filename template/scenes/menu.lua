@@ -8,7 +8,7 @@ function Menu:update(dt)
   
 end
 
-function Menu:draw(dt)
+function Menu:draw()
 
 end
 
