@@ -61,9 +61,7 @@ end
 
 function keyIs(action2)
 
-    
-    print(action2)
-    print(inspect(results))
+
     for _, action in pairs(results) do
         print(action)
         local counter = 1
