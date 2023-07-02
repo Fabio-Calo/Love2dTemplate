@@ -6,7 +6,7 @@ function Player:load()
 
     
 
-    Player.collider = world:newBSGRectangleCollider(400,200,16,10,3)
+    Player.collider = world:newBSGRectangleCollider(400,200,16,10,3) --add to parent: world = wf.newWorld(0,0)
     Player.x =  Player.collider:getX()
     Player.y = Player.collider:getY()
     Player.collider:setFixedRotation(true)
