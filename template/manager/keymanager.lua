@@ -11,7 +11,7 @@ function KeyManager:update(dt)
   
     local result = {}
 
-    for id, keys in pairs(keys) do        
+    for id, key in pairs(keys) do        
         if love.keyboard.isDown(key) then
             table.insert(result,id) 
         end
