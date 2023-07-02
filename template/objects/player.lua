@@ -59,18 +59,19 @@ function playerMovement()
 
 end
 
-function keyIs(id)
+function keyIs(action2)
 
     
-    local tmpRes = 0
-
-    for id, key in pairs(results) do
-       if results[id] then
-            tmpRes = Player.speed
-       end
-
+    print(action2)
+    print(inspect(results))
+    for _, action in pairs(results) do
+        print(action)
+        local counter = 1
+        if action == action2  then
+            return 1
+        end
     end
-    return tmpRes
+    return 0
 end
 
 return Player
