@@ -11,14 +11,13 @@ function KeyManager:update(dt)
   
     local result = {}
 
-
     for id, keys in pairs(keys) do        
         if love.keyboard.isDown(key) then
-            table[id] = true
+            table.insert(result,id) 
         end
     end
 
-    return false
+    return result
 end
 
 function KeyManager:addKey(id,key)
