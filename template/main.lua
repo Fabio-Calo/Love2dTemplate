@@ -6,7 +6,7 @@ function love.load()
     --managers
     SceneManager = require "manager/scenemanager"
     ButtonManager = require "manager/buttonmanager"
-
+    KeyManager = require "Manager/keymanager"
     --libs
     inspect = require("libraries/inspect")
     wf = require "libraries/windfield"
