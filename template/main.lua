@@ -9,6 +9,10 @@ function love.load()
 
     --libs
     inspect = require("libraries/inspect")
+    wf = require "libraries/windfield"
+    anim8 = require "Libraries/anim8"
+    camera = require "Libraries/camera"
+    cam = camera()
     SceneManager:load()
     ButtonManager:load()
 end
